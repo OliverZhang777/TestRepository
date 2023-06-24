@@ -1,0 +1,8 @@
+prefix=/home/zhaomeng/DeformableEstimation/devel/.private/plot_in_py
+
+Name: plot_in_py
+Description: Description of plot_in_py
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,44 @@
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:[m[K In member function ‘[01m[Kvoid Cable::Sort::SortPoints(std::vector<std::vector<double> >&)[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:202:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krot_angle[m[K’ was not declared in this scope; did you mean ‘[01m[Krot_angle_[m[K’?
+  202 |         [01;31m[Krot_angle[m[K = fangle(direction_[i], positional_diff_);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Krot_angle_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:202:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kfangle[m[K’ was not declared in this scope; did you mean ‘[01m[KAngle[m[K’?
+  202 |         rot_angle = [01;31m[Kfangle[m[K(direction_[i], positional_diff_);
+      |                     [01;31m[K^~~~~~[m[K
+      |                     [32m[KAngle[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:204:70:[m[K [01;31m[Kerror: [m[K‘[01m[KNormal[m[K’ was not declared in this scope; did you mean ‘[01m[Knormal_[m[K’?
+  204 |         std::vector<double> direction_rot = Rodriguez(direction_[i], [01;31m[KNormal[m[K, 2 * rot_angle);
+      |                                                                      [01;31m[K^~~~~~[m[K
+      |                                                                      [32m[Knormal_[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:1[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:208:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kps[m[K’ was not declared in this scope
+  208 |     ROS_INFO_STREAM("point cloud size after sort is: " << [01;31m[Kps[m[K.size());
+      |                                                           [01;31m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:361:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+  361 |     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
+      |                                                                [01;36m[K^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:409:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+  409 |       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:582:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+  582 | #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
+      |                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+  111 | #define ROS_INFO_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+      |                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:208:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+  208 |     [01;36m[KROS_INFO_STREAM[m[K("point cloud size after sort is: " << ps.size());
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/test_node.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/test_node.cpp:10:29:[m[K [01;31m[Kerror: [m[K‘[01m[Klinspace[m[K’ was not declared in this scope; did you mean ‘[01m[KLinspace[m[K’?
+   10 |     std::vector<double> X = [01;31m[Klinspace[m[K(0, 1, 5); // must be increasing
+      |                             [01;31m[K^~~~~~~~[m[K
+      |                             [32m[KLinspace[m[K
+make[2]: *** [CMakeFiles/sort.dir/build.make:63: CMakeFiles/sort.dir/src/sort.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:902: CMakeFiles/sort.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/test_node.dir/build.make:63: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:200: CMakeFiles/test_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

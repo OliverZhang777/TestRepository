@@ -1,0 +1,8 @@
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_w_plot_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_w_plot_node.cpp:227:35:[m[K [01;31m[Kerror: [m[K‘[01m[Klinspace[m[K’ was not declared in this scope; did you mean ‘[01m[KLinspace[m[K’?
+  227 |                 auto fine_space = [01;31m[Klinspace[m[K(0, 1, 100);
+      |                                   [01;31m[K^~~~~~~~[m[K
+      |                                   [32m[KLinspace[m[K
+make[2]: *** [CMakeFiles/interp_w_plot_node.dir/build.make:63: CMakeFiles/interp_w_plot_node.dir/src/interp_w_plot_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:172: CMakeFiles/interp_w_plot_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

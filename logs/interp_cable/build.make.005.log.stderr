@@ -1,0 +1,78 @@
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:[m[K In constructor ‘[01m[KCable::Sort::Sort(double, double, double, double, std::vector<double>, std::vector<double>, bool)[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:16:51:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KCable::Sort[m[K’ does not have any field named ‘[01m[KDL[m[K’
+   16 |     : theta_max(theta_max), theta_min(theta_min), [01;31m[KDL[m[K(delta_length), sigma(sigma), start_point(start_point), start_normal(start_normal), include_start(include_start)
+      |                                                   [01;31m[K^~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:16:83:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KCable::Sort[m[K’ does not have any field named ‘[01m[Kstart_point[m[K’
+   16 |     : theta_max(theta_max), theta_min(theta_min), DL(delta_length), sigma(sigma), [01;31m[Kstart_point[m[K(start_point), start_normal(start_normal), include_start(include_start)
+      |                                                                                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:16:109:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KCable::Sort[m[K’ does not have any field named ‘[01m[Kstart_normal[m[K’
+   16 |     : theta_max(theta_max), theta_min(theta_min), DL(delta_length), sigma(sigma), start_point(start_point), [01;31m[Kstart_normal[m[K(start_normal), include_start(include_start)
+      |                                                                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:[m[K At global scope:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:26:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble Cable::Sort::Dot(std::vector<double>&, std::vector<double>&)[m[K’
+   26 | double [01;31m[KCable[m[K::Sort::Dot(std::vector<double> &v1, std::vector<double> &v2)
+      |        [01;31m[K^~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:26:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble Cable::Sort::Dot(std::vector<double>&, std::vector<double>&)[m[K’
+In file included from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:6[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/include/interp_cable/sort.hpp:6:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Cable::Sort[m[K’ defined here
+    6 |     class [01;36m[KSort[m[K
+      |           [01;36m[K^~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:36:21:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<double> Cable::Sort::Cross(std::vector<double>&, std::vector<double>&)[m[K’
+   36 | std::vector<double> [01;31m[KCable[m[K::Sort::Cross(std::vector<double> &v1, std::vector<double> &v2)
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:36:21:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<double> Cable::Sort::Cross(std::vector<double>&, std::vector<double>&)[m[K’
+In file included from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:6[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/include/interp_cable/sort.hpp:6:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Cable::Sort[m[K’ defined here
+    6 |     class [01;36m[KSort[m[K
+      |           [01;36m[K^~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:64:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble Cable::Sort::Norm(std::vector<double>&)[m[K’
+   64 | double [01;31m[KCable[m[K::Sort::Norm(std::vector<double> &v)
+      |        [01;31m[K^~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:64:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble Cable::Sort::Norm(std::vector<double>&)[m[K’
+In file included from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:6[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/include/interp_cable/sort.hpp:6:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Cable::Sort[m[K’ defined here
+    6 |     class [01;36m[KSort[m[K
+      |           [01;36m[K^~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:76:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble Cable::Sort::Angle(std::vector<double>&, std::vector<double>&)[m[K’
+   76 | double [01;31m[KCable[m[K::Sort::Angle(std::vector<double> &v1, std::vector<double> &v2)
+      |        [01;31m[K^~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:76:8:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kdouble Cable::Sort::Angle(std::vector<double>&, std::vector<double>&)[m[K’
+In file included from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:6[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/include/interp_cable/sort.hpp:6:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Cable::Sort[m[K’ defined here
+    6 |     class [01;36m[KSort[m[K
+      |           [01;36m[K^~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:84:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Cable::Sort::Scale(std::vector<double>&, double)[m[K’
+   84 | void [01;31m[KCable[m[K::Sort::Scale(std::vector<double> &v, double scalar)
+      |      [01;31m[K^~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:84:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid Cable::Sort::Scale(std::vector<double>&, double)[m[K’
+In file included from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:6[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/include/interp_cable/sort.hpp:6:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Cable::Sort[m[K’ defined here
+    6 |     class [01;36m[KSort[m[K
+      |           [01;36m[K^~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:92:21:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kstd::vector<double> Cable::Sort::Rodriguez(std::vector<double>&, std::vector<double>&, double)[m[K’
+   92 | std::vector<double> [01;31m[KCable[m[K::Sort::Rodriguez(std::vector<double> &origin, std::vector<double> &axis, double angle)
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:92:21:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kstd::vector<double> Cable::Sort::Rodriguez(std::vector<double>&, std::vector<double>&, double)[m[K’
+In file included from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:6[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/include/interp_cable/sort.hpp:6:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Cable::Sort[m[K’ defined here
+    6 |     class [01;36m[KSort[m[K
+      |           [01;36m[K^~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:125:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Cable::Sort::Init(std::vector<std::vector<double> >&)[m[K’
+  125 | void [01;31m[KCable[m[K::Sort::Init(std::vector<std::vector<double>> &point_set)
+      |      [01;31m[K^~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:125:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid Cable::Sort::Init(std::vector<std::vector<double> >&)[m[K’
+In file included from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:6[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/include/interp_cable/sort.hpp:6:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Cable::Sort[m[K’ defined here
+    6 |     class [01;36m[KSort[m[K
+      |           [01;36m[K^~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:141:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid Cable::Sort::SortPoints(std::vector<std::vector<double> >&)[m[K’
+  141 | void [01;31m[KCable[m[K::Sort::SortPoints(std::vector<std::vector<double>> &point_set)
+      |      [01;31m[K^~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:141:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid Cable::Sort::SortPoints(std::vector<std::vector<double> >&)[m[K’
+In file included from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:6[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/include/interp_cable/sort.hpp:6:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Cable::Sort[m[K’ defined here
+    6 |     class [01;36m[KSort[m[K
+      |           [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/sort.dir/build.make:63: CMakeFiles/sort.dir/src/sort.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:902: CMakeFiles/sort.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

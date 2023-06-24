@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zhaomeng/DeformableEstimation/devel/.private/taichi_node/setup.sh

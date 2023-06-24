@@ -1,0 +1,8 @@
+prefix=/home/zhaomeng/DeformableEstimation/install
+
+Name: taichi_node
+Description: Description of taichi_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

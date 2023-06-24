@@ -1,0 +1,8 @@
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/utilities.cpp:[m[K In function ‘[01m[Kstd::vector<double> linspace(double, double, int)[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/utilities.cpp:5:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+    5 |     double step = (end - start) / ([01;31m[Kn[m[K - 1);
+      |                                    [01;31m[K^[m[K
+      |                                    [32m[Kyn[m[K
+make[2]: *** [CMakeFiles/utilities.dir/build.make:63: CMakeFiles/utilities.dir/src/utilities.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:956: CMakeFiles/utilities.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

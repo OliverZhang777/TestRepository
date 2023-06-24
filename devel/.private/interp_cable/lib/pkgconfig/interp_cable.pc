@@ -1,0 +1,8 @@
+prefix=/home/zhaomeng/DeformableEstimation/devel/.private/interp_cable
+
+Name: interp_cable
+Description: Description of interp_cable
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

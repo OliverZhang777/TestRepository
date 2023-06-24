@@ -1,0 +1,1 @@
+/home/zhaomeng/DeformableEstimation/devel/.private/taichi_node/lib/pkgconfig/taichi_node.pc

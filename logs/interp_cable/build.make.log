@@ -1,0 +1,9 @@
+[ 16%] Built target paraspline
+[ 33%] Built target utilities
+[ 50%] Built target sort
+[ 66%] Built target interp_node
+[35m[1mScanning dependencies of target interp_w_plot_node[0m
+[ 83%] Built target test_node
+[ 91%] [32mBuilding CXX object CMakeFiles/interp_w_plot_node.dir/src/interp_w_plot_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/zhaomeng/DeformableEstimation/devel/.private/interp_cable/lib/interp_cable/interp_w_plot_node[0m
+[100%] Built target interp_w_plot_node

@@ -1,0 +1,52 @@
+[ 16%] Built target utilities
+[ 33%] Built target paraspline
+[35m[1mScanning dependencies of target test_node[0m
+[ 50%] Built target sort
+[ 58%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_node.cpp.o[0m
+[35m[1mScanning dependencies of target interp_w_plot_node[0m
+[35m[1mScanning dependencies of target interp_node[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/interp_w_plot_node.dir/src/interp_w_plot_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/interp_node.dir/src/interp_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/zhaomeng/DeformableEstimation/devel/.private/interp_cable/lib/interp_cable/test_node[0m
+[ 83%] Built target test_node
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_node.cpp:124:19:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KSetStartPoint[m[K’
+  124 |     SetDirection()
+      |                   [01;31m[K^[m[K
+      |                   [32m[K;[m[K
+  125 |     [32m[KSetStartPoint[m[K()
+      |     [32m[K~~~~~~~~~~~~~[m[K  
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_node.cpp:166:33:[m[K [01;31m[Kerror: [m[K‘[01m[Klinspace[m[K’ was not declared in this scope; did you mean ‘[01m[KLinspace[m[K’?
+  166 |             auto interp_space = [01;31m[Klinspace[m[K(0.0, 1.0, reading_x.size());
+      |                                 [01;31m[K^~~~~~~~[m[K
+      |                                 [32m[KLinspace[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_w_plot_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_w_plot_node.cpp:127:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpointer_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoint_sub[m[K’?
+  127 |     [01;31m[Kpointer_sub[m[K = nh.subscribe("/NDI/PointerNew/measured_cp", 1, PointerDirectionCallback);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Kpoint_sub[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_w_plot_node.cpp:191:33:[m[K [01;31m[Kerror: [m[K‘[01m[Klinspace[m[K’ was not declared in this scope; did you mean ‘[01m[KLinspace[m[K’?
+  191 |             auto interp_space = [01;31m[Klinspace[m[K(0.0, 1.0, plot_x.size());
+      |                                 [01;31m[K^~~~~~~~[m[K
+      |                                 [32m[KLinspace[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_w_plot_node.cpp:234:17:[m[K [01;31m[Kerror: [m[K‘[01m[KPlotSet[m[K’ was not declared in this scope
+  234 |                 [01;31m[KPlotSet[m[K.push_back(interp_plot);
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_w_plot_node.cpp:272:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kp_temp[m[K’ was not declared in this scope; did you mean ‘[01m[Kmktemp[m[K’?
+  272 |                 interp_output.poses.push_back([01;31m[Kp_temp[m[K);
+      |                                               [01;31m[K^~~~~~[m[K
+      |                                               [32m[Kmktemp[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_w_plot_node.cpp:276:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksorted_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksorted_pub[m[K’?
+  276 |             [01;31m[Ksorted_pub_[m[K.publish(sorted_output);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Ksorted_pub[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/interp_w_plot_node.cpp:277:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterp_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinterp_pub[m[K’?
+  277 |             [01;31m[Kinterp_pub_[m[K.publish(interp_output);
+      |             [01;31m[K^~~~~~~~~~~[m[K
+      |             [32m[Kinterp_pub[m[K
+make[2]: *** [CMakeFiles/interp_node.dir/build.make:63: CMakeFiles/interp_node.dir/src/interp_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:985: CMakeFiles/interp_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/interp_w_plot_node.dir/build.make:63: CMakeFiles/interp_w_plot_node.dir/src/interp_w_plot_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:172: CMakeFiles/interp_w_plot_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

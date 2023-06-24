@@ -1,0 +1,117 @@
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:[m[K In constructor ‘[01m[KCable::Sort::Sort(double, double, double, double, std::vector<double>, std::vector<double>, bool)[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:16:153:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KCable::Sort[m[K’ does not have any field named ‘[01m[Kinclude_start[m[K’
+   16 |     : theta_max_(theta_max), theta_min_(theta_min), delta_length_(delta_length), sigma_(sigma), start_point_(start_point), start_normal_(start_normal), [01;31m[Kinclude_start[m[K(include_start)
+      |                                                                                                                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:41[m[K,
+                 from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:1[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:[m[K In member function ‘[01m[Kstd::vector<double> Cable::Sort::Rodriguez(std::vector<double>&, std::vector<double>&, double)[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:97:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kfnorm[m[K’ was not declared in this scope
+   97 |     ROS_ASSERT([01;31m[Kfnorm[m[K(axis) < 1 + 1e-6);
+      |                [01;31m[K^~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/assert.h:122:11:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROS_ASSERT[m[K’
+  122 |     if (!([01;36m[Kcond[m[K)) { \
+      |           [01;36m[K^~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:[m[K In member function ‘[01m[Kvoid Cable::Sort::Init(std::vector<std::vector<double> >&)[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:127:5:[m[K [01;31m[Kerror: [m[K‘[01m[KDirection[m[K’ was not declared in this scope; did you mean ‘[01m[Kdirection_[m[K’?
+  127 |     [01;31m[KDirection[m[K.clear();
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kdirection_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:128:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_normal[m[K’ was not declared in this scope; did you mean ‘[01m[Kstart_normal_[m[K’?
+  128 |     Direction.push_back([01;31m[Kstart_normal[m[K);
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+      |                         [32m[Kstart_normal_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:130:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kinclude_start[m[K’ was not declared in this scope; did you mean ‘[01m[Kinclude_start_[m[K’?
+  130 |     if([01;31m[Kinclude_start[m[K == true){
+      |        [01;31m[K^~~~~~~~~~~~~[m[K
+      |        [32m[Kinclude_start_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:131:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_point[m[K’ was not declared in this scope; did you mean ‘[01m[Kstart_point_[m[K’?
+  131 |         point_set.insert(point_set.begin(), [01;31m[Kstart_point[m[K);
+      |                                             [01;31m[K^~~~~~~~~~~[m[K
+      |                                             [32m[Kstart_point_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:134:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kstart_point[m[K’ was not declared in this scope; did you mean ‘[01m[Kstart_point_[m[K’?
+  134 |         int closest_idx = FindClosestPoint(point_set, [01;31m[Kstart_point[m[K);
+      |                                                       [01;31m[K^~~~~~~~~~~[m[K
+      |                                                       [32m[Kstart_point_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:134:27:[m[K [01;31m[Kerror: [m[K‘[01m[KFindClosestPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Kfind_closest_point[m[K’?
+  134 |         int closest_idx = [01;31m[KFindClosestPoint[m[K(point_set, start_point);
+      |                           [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                           [32m[Kfind_closest_point[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:[m[K In member function ‘[01m[Kvoid Cable::Sort::SortPoints(std::vector<std::vector<double> >&)[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:150:9:[m[K [01;31m[Kerror: [m[K‘[01m[KProb[m[K’ was not declared in this scope
+  150 |         [01;31m[KProb[m[K.clear();
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:155:13:[m[K [01;31m[Kerror: [m[K‘[01m[KPositionalDiff[m[K’ was not declared in this scope; did you mean ‘[01m[Kpositional_diff_[m[K’?
+  155 |             [01;31m[KPositionalDiff[m[K.clear();
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+      |             [32m[Kpositional_diff_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:169:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta[m[K’ was not declared in this scope; did you mean ‘[01m[Ktheta_[m[K’?
+  169 |             [01;31m[Ktheta[m[K = Angle(Direction[i], PositionalDiff);
+      |             [01;31m[K^~~~~[m[K
+      |             [32m[Ktheta_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:169:27:[m[K [01;31m[Kerror: [m[K‘[01m[KDirection[m[K’ was not declared in this scope; did you mean ‘[01m[Kdirection_[m[K’?
+  169 |             theta = Angle([01;31m[KDirection[m[K[i], PositionalDiff);
+      |                           [01;31m[K^~~~~~~~~[m[K
+      |                           [32m[Kdirection_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:171:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_max[m[K’ was not declared in this scope; did you mean ‘[01m[Ktheta_max_[m[K’?
+  171 |             if (theta < [01;31m[Ktheta_max[m[K && theta >= theta_min)
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Ktheta_max_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:171:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_min[m[K’ was not declared in this scope; did you mean ‘[01m[Ktheta_min_[m[K’?
+  171 |             if (theta < theta_max && theta >= [01;31m[Ktheta_min[m[K)
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                               [32m[Ktheta_min_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:173:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmean[m[K’ was not declared in this scope; did you mean ‘[01m[Kmean_[m[K’?
+  173 |                 [01;31m[Kmean[m[K = 2 * delta_length * cos(theta) / (M_PI - 2 * theta);
+      |                 [01;31m[K^~~~[m[K
+      |                 [32m[Kmean_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:173:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdelta_length[m[K’ was not declared in this scope; did you mean ‘[01m[Kdelta_length_[m[K’?
+  173 |                 mean = 2 * [01;31m[Kdelta_length[m[K * cos(theta) / (M_PI - 2 * theta);
+      |                            [01;31m[K^~~~~~~~~~~~[m[K
+      |                            [32m[Kdelta_length_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:174:33:[m[K [01;31m[Kerror: [m[K‘[01m[Ksigma[m[K’ was not declared in this scope; did you mean ‘[01m[Ksigma_[m[K’?
+  174 |                 Prob[j] = (1 / ([01;31m[Ksigma[m[K * std::sqrt(2 * M_PI))) * exp(-0.5 * pow(((Norm(PositionalDiff) - mean) / sigma), 2));
+      |                                 [01;31m[K^~~~~[m[K
+      |                                 [32m[Ksigma_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:188:9:[m[K [01;31m[Kerror: [m[K‘[01m[KPositionalDiff[m[K’ was not declared in this scope; did you mean ‘[01m[Kpositional_diff_[m[K’?
+  188 |         [01;31m[KPositionalDiff[m[K.clear();
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |         [32m[Kpositional_diff_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:195:9:[m[K [01;31m[Kerror: [m[K‘[01m[KNormal[m[K’ was not declared in this scope; did you mean ‘[01m[Knormal_[m[K’?
+  195 |         [01;31m[KNormal[m[K = Cross(Direction[i], PositionalDiff);
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Knormal_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:195:24:[m[K [01;31m[Kerror: [m[K‘[01m[KDirection[m[K’ was not declared in this scope; did you mean ‘[01m[Kdirection_[m[K’?
+  195 |         Normal = Cross([01;31m[KDirection[m[K[i], PositionalDiff);
+      |                        [01;31m[K^~~~~~~~~[m[K
+      |                        [32m[Kdirection_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:202:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krot_angle[m[K’ was not declared in this scope; did you mean ‘[01m[Krot_angle_[m[K’?
+  202 |         [01;31m[Krot_angle[m[K = fangle(Direction[i], PositionalDiff);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Krot_angle_[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:202:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kfangle[m[K’ was not declared in this scope; did you mean ‘[01m[KAngle[m[K’?
+  202 |         rot_angle = [01;31m[Kfangle[m[K(Direction[i], PositionalDiff);
+      |                     [01;31m[K^~~~~~[m[K
+      |                     [32m[KAngle[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:1[m[K:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:208:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kps[m[K’ was not declared in this scope
+  208 |     ROS_INFO_STREAM("point cloud size after sort is: " << [01;31m[Kps[m[K.size());
+      |                                                           [01;31m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:361:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+  361 |     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
+      |                                                                [01;36m[K^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:409:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+  409 |       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:582:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+  582 | #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
+      |                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:111:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+  111 | #define ROS_INFO_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+      |                               [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/sort.cpp:208:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_STREAM[m[K’
+  208 |     [01;36m[KROS_INFO_STREAM[m[K("point cloud size after sort is: " << ps.size());
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sort.dir/build.make:63: CMakeFiles/sort.dir/src/sort.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:902: CMakeFiles/sort.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

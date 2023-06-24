@@ -1,0 +1,9 @@
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/test_node.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/zhaomeng/DeformableEstimation/src/interp_cable/src/test_node.cpp:10:29:[m[K [01;31m[Kerror: [m[K‘[01m[Klinspace[m[K’ was not declared in this scope; did you mean ‘[01m[KLinspace[m[K’?
+   10 |     std::vector<double> X = [01;31m[Klinspace[m[K(0, 1, 5); // must be increasing
+      |                             [01;31m[K^~~~~~~~[m[K
+      |                             [32m[KLinspace[m[K
+make[2]: *** [CMakeFiles/test_node.dir/build.make:63: CMakeFiles/test_node.dir/src/test_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:200: CMakeFiles/test_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2
